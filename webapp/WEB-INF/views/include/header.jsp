@@ -8,17 +8,17 @@
 
 
 	<c:choose>
-		<c:when test="${empty authUser}">
+		<c:when test="">
 			<ul>
-				<li><a href="${pageContext.request.contextPath}/user/loginForm">login</a></li>
-				<li><a href="${pageContext.request.contextPath}/user/joinForm">sign up</a></li>
+				<li><a href="${pageContext.request.contextPath}/user/loginForm">로그인</a></li>
+				<li><a href="${pageContext.request.contextPath}/user/joinForm">회원가입</a></li>
 			</ul>
 		</c:when>
 		<c:otherwise>
 			<ul>
-				<li>${sessionScope.authUser.name}님</li>
-				<li><a href="${pageContext.request.contextPath}/user/logout">logout</a></li>
-				<li><a href="${pageContext.request.contextPath}/user/modifyForm">my page</a></li>
+				<li>님</li>
+				<li><a href="${pageContext.request.contextPath}/user/logout">로그아웃</a></li>
+				<li><a href="${pageContext.request.contextPath}/user/modifyForm">마이페이지</a></li>
 			</ul>
 		</c:otherwise>
 	</c:choose>

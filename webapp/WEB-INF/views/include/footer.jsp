@@ -15,7 +15,7 @@
 			<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 		</ul>
 		<p class="copyright">
-			&copy;copyright 2021 HERE로. Images: <a href="https://unsplash.com/">Unsplash</a>.
+			&copy;copyright 2021 HERE로. Images출처 : <a href="https://unsplash.com/">Unsplash</a>.
 		</p>
 	</div>
 </footer>
